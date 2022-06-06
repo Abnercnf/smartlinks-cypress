@@ -1,0 +1,22 @@
+{
+  "name": "cy-automation",
+  "version": "1.0.0",
+  "description": "cy-automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Abner Narciso",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.0.2"
+  }
+}

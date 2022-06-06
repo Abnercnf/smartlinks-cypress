@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 1rem Poppins, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(23, 110, 62);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+a {
+    color: rgb(200, 253, 244);
+}
+
+a:visited {
+    color: rgb(43, 209, 198);
+}
+
+.divider{
+    margin: 20px 0;
+    width: 19rem;
+    border-bottom: .1px solid #fff;
+}
+
+input {
+    margin: 10px 0;
+    padding: 0 10px;
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* CHECKBOX */
+.checkbox {
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox > * {
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="checkbox"]:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 15px;
+    content: "\f00c";
+    color: #fff;
+    display: none;
+}
+
+input[type="checkbox"]:hover {
+    background-color: #c5c5c5;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #5bcd3e;
+}
+
+input[type="checkbox"]:checked:after {
+    display: block;
+}
+
+
+/* INPUT BUTTON, BUTTON */
+
+.btn {
+    color: #fff;
+    transition: .2s;
+}
+
+.btn-success{
+    background-color: #5bcd3e;
+}
+
+.btn.btn-success:hover{
+    background-color: #91c983;
+    cursor: pointer;
+}
+
+.msg {
+    margin-top: 20px;
+    padding: 15px;
+    height: 50px;
+    width: 500px;
+    text-align: center;
+    border-radius: 5px;
+    transition: opacity 1s;
+}
+
+.msg.msg-success {
+    background-color: rgb(0, 150, 0);
+    color: #fff;
+}
+
+.msg.msg-alert {
+    background-color: rgb(255, 115, 0);
+    color: #fff;
+}
+
+.msg.msg-error {
+    background-color: rgb(194, 0, 0);
+    color: #fff;
+}
+
+.msg.msg-info {
+    background-color: rgb(0, 96, 160);
+    color: #fff;
+}
