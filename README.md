@@ -1,1 +1,1 @@
-# smartlinks-cypress
+# Smartlinks-cypress scaffolding
